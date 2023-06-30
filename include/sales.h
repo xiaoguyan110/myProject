@@ -38,9 +38,7 @@ class Sales
         Sales(std::istream &);
 
         std::string isbn() { return bookNo; }
-        Sales  combine(Sales &);
         Sales  combine(const Sales &);
-        Sales  combine(const Sales &) const;
         double avg_price() const;
 
     private:

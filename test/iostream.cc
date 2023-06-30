@@ -1,4 +1,7 @@
 #include <iostream>
+#include <fstream>
+#include <sstream>
+
 using namespace std;
 
 
@@ -20,9 +23,11 @@ istream & func(istream & in)
     return in;
 }
 
-int main()
+int main(int argc, char ** argv)
 {
-
+    if(true){}
+    ifstream intput;
+    ofstream output;
     func(cin);
 
 }

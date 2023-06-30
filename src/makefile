@@ -12,11 +12,11 @@ built:
 	g++ -c $(INC) window_mgr.cc -o $(builtDir)/window_mgr.o 
 	g++ -c $(INC) screen.cc -o $(builtDir)/screen.o 
 	g++ -c $(INC) comm.cc -o $(builtDir)/comm.o 
-	g++ -c $(INC) main.cc -o $(builtDir)/main.o 
 	g++ -c $(INC) account.cc -o $(builtDir)/account.o 
+	g++ -c $(INC) dealfile.cc -o  $(builtDir)/dealfile.o
 
 main.app: $(shell ls $(builtDir)/*.o)
-	g++ -o $(binDir)/main.app $(shell ls $(builtDir)/*.o)
+	g++ -o $(binDir)/main.app $(shell ls $(builtDir)/*.o) $(INC) main.cc
 
 
 .PHONY: clean
