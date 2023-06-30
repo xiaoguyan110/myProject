@@ -1,4 +1,4 @@
-proDir=${HOME}/hear/
+proDir=${HOME}/workspace/myProject
 mkDir=$(proDir)/mk
 
 -include $(mkDir)/dir.mk

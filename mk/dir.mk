@@ -1,4 +1,4 @@
-proDir=${HOME}/hear
+proDir=${HOME}/workspace/myProject
 binDir=$(proDir)/bin
 srcDir=$(proDir)/src
 mainDir=$(srcDir)/main
