@@ -6,6 +6,3 @@ ii
 
 
 aa
-
-cc
-bb
